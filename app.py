@@ -14,7 +14,7 @@ app = dash.Dash(__name__)
 server = app.server
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
-df = pd.read_csv('/Users/apple/Documents/CC/CC 7/nama_10_gdp_1_Data.csv')
+df = pd.read_csv('nama_10_gdp_1_Data.csv')
 
 available_indicators = df['NA_ITEM'].unique()
 available_indicators1 = df['NA_ITEM'].unique()
